@@ -69,3 +69,6 @@ yarn.lock
 
 # vscode config
 .vscode
+
+# jetbrains config
+.idea

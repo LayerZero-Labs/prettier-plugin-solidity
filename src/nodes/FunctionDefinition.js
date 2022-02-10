@@ -34,7 +34,7 @@ const parameters = (parametersType, node, path, print, options) => {
         // To keep consistency any list of parameters will split if it's longer than 2.
         // For more information see:
         // https://github.com/prettier-solidity/prettier-plugin-solidity/issues/256
-        node[parametersType].length > 2 ? hardline : line
+        (node[parametersType].length > 2 && options.printWidth < 300) ? hardline : line
       ]
     });
   }
