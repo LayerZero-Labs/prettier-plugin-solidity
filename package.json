@@ -1,5 +1,5 @@
 {
-  "name": "prettier-plugin-solidity",
+  "name": "@layerzerolabs/prettier-plugin-solidity",
   "version": "1.0.0-beta.19",
   "description": "A Prettier Plugin for automatically formatting your Solidity code.",
   "main": "src",
@@ -11,10 +11,6 @@
     "prettier": "prettier './*.{js,json,md,yml}' '{scripts,src,tests}/**/*.js'",
     "test": "jest",
     "test:all": "cross-env FULL_TEST=1 jest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/prettier-solidity/prettier-plugin-solidity.git"
   },
   "keywords": [
     "ethereum",
